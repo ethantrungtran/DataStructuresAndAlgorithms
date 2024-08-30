@@ -1,5 +1,6 @@
 
 function findTheWinner(n, k) {
+    // Josephus Problem
     // O(n)
     // the formula: F(n) = (F(n-1) + k) % n
     // base case: F(1) = 0
